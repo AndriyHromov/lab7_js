@@ -1,4 +1,33 @@
 const content = document.getElementById("content");
+const catalogLink = document.getElementById("catalog-link");
+
+catalogLink.addEventListener("click", function (event) {
+    event.preventDefault();
+    loadCategories();
+});
+
+// Завантаження категорій
+async function loadCategories() {
+    try {
+        const response = await fetch("data/categories.json");
+        const categories = await response.json();
+
+        displayCategories(categories);
+    } catch (error) {
+        content.innerHTML = "<h2>Помилка завантаження каталогу</h2>";
+        console.error(error);
+    }
+}
+
+// Відображення категорій
+function displayCategories(categories) {
+
+    let html = `
+        <h2>Каталог категорій</h2>
+        <div class="categories">
+    `;
+
+    categories.forEach(category => {
         html += `
             <button class="category-btn"
                 onclick="loadProducts('${category.shortname}')">
@@ -17,7 +46,6 @@ const content = document.getElementById("content");
 
     content.innerHTML = html;
 
-    // Виведення приміток
     categories.forEach(category => {
         if (category.notes) {
             content.innerHTML += `
@@ -52,6 +80,7 @@ async function loadProducts(categoryShortName) {
 
 // Відображення товарів
 function displayProducts(data) {
+
     let html = `
         <h2>${data.categoryName}</h2>
         <div class="products">
