@@ -1,0 +1,37 @@
+{
+    "categoryName": "Laptops",
+    "items": [
+        {
+            "id": 1,
+            "name": "Lenovo IdeaPad",
+            "shortname": "lenovo",
+            "description": "Ноутбук для навчання та офісної роботи.",
+            "price": "$650",
+            "image": "https://placehold.co/200x200"
+        },
+        {
+            "id": 2,
+            "name": "ASUS TUF Gaming",
+            "shortname": "asus",
+            "description": "Ігровий ноутбук з потужною відеокартою.",
+            "price": "$1200",
+            "image": "https://placehold.co/200x200"
+        },
+        {
+            "id": 3,
+            "name": "MacBook Air",
+            "shortname": "macbook",
+            "description": "Легкий та продуктивний ноутбук від Apple.",
+            "price": "$1500",
+            "image": "https://placehold.co/200x200"
+        },
+        {
+            "id": 4,
+            "name": "HP Pavilion",
+            "shortname": "hp",
+            "description": "Універсальний ноутбук для щоденних задач.",
+            "price": "$800",
+            "image": "https://placehold.co/200x200"
+        }
+    ]
+}
