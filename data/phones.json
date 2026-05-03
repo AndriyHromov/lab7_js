@@ -1,0 +1,37 @@
+{
+    "categoryName": "Phones",
+    "items": [
+        {
+            "id": 1,
+            "name": "iPhone 15",
+            "shortname": "iphone",
+            "description": "Сучасний смартфон Apple.",
+            "price": "$1100",
+            "image": "https://placehold.co/200x200"
+        },
+        {
+            "id": 2,
+            "name": "Samsung Galaxy S24",
+            "shortname": "samsung",
+            "description": "Флагманський Android смартфон.",
+            "price": "$1000",
+            "image": "https://placehold.co/200x200"
+        },
+        {
+            "id": 3,
+            "name": "Xiaomi Redmi Note",
+            "shortname": "xiaomi",
+            "description": "Бюджетний смартфон з хорошою батареєю.",
+            "price": "$350",
+            "image": "https://placehold.co/200x200"
+        },
+        {
+            "id": 4,
+            "name": "Google Pixel",
+            "shortname": "pixel",
+            "description": "Смартфон з чудовою камерою.",
+            "price": "$900",
+            "image": "https://placehold.co/200x200"
+        }
+    ]
+}
