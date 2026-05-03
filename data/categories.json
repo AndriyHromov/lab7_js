@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Laptops",
+        "shortname": "laptops",
+        "notes": "Ноутбуки для навчання та роботи"
+    },
+    {
+        "id": 2,
+        "name": "Phones",
+        "shortname": "phones",
+        "notes": "Смартфони різних брендів"
+    },
+    {
+        "id": 3,
+        "name": "Accessories",
+        "shortname": "accessories",
+        "notes": "Корисні аксесуари для ПК"
+    },
+    {
+        "id": 4,
+        "name": "Gaming",
+        "shortname": "gaming",
+        "notes": "Товари для геймерів"
+    }
+]
