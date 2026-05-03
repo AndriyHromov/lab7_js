@@ -1,0 +1,37 @@
+{
+    "categoryName": "Gaming",
+    "items": [
+        {
+            "id": 1,
+            "name": "PlayStation 5",
+            "shortname": "ps5",
+            "description": "Сучасна ігрова консоль Sony.",
+            "price": "$700",
+            "image": "https://placehold.co/200x200"
+        },
+        {
+            "id": 2,
+            "name": "Xbox Series X",
+            "shortname": "xbox",
+            "description": "Потужна консоль Microsoft.",
+            "price": "$650",
+            "image": "https://placehold.co/200x200"
+        },
+        {
+            "id": 3,
+            "name": "Gaming Chair",
+            "shortname": "chair",
+            "description": "Зручне крісло для геймерів.",
+            "price": "$300",
+            "image": "https://placehold.co/200x200"
+        },
+        {
+            "id": 4,
+            "name": "VR Headset",
+            "shortname": "vr",
+            "description": "Окуляри віртуальної реальності.",
+            "price": "$500",
+            "image": "https://placehold.co/200x200"
+        }
+    ]
+}
