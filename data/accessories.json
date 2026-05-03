@@ -1,0 +1,37 @@
+{
+    "categoryName": "Accessories",
+    "items": [
+        {
+            "id": 1,
+            "name": "Mechanical Keyboard",
+            "shortname": "keyboard",
+            "description": "Механічна клавіатура з RGB.",
+            "price": "$120",
+            "image": "https://placehold.co/200x200"
+        },
+        {
+            "id": 2,
+            "name": "Gaming Mouse",
+            "shortname": "mouse",
+            "description": "Ігрова мишка з високою точністю.",
+            "price": "$70",
+            "image": "https://placehold.co/200x200"
+        },
+        {
+            "id": 3,
+            "name": "USB Headset",
+            "shortname": "headset",
+            "description": "Навушники з мікрофоном.",
+            "price": "$90",
+            "image": "https://placehold.co/200x200"
+        },
+        {
+            "id": 4,
+            "name": "Web Camera",
+            "shortname": "camera",
+            "description": "HD вебкамера для дзвінків.",
+            "price": "$60",
+            "image": "https://placehold.co/200x200"
+        }
+    ]
+}
